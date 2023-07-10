@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58ec1b6b0796f894f89877c50c01663b, type: 3}
+  m_Name: SA_MenuState_ITA_PlayAgain
+  m_EditorClassIdentifier: 
+  content:
+    clip: {fileID: 8300000, guid: 14a794e4262c87c43bc337fc0f0a80ee, type: 3}
+    channel: {fileID: 11400000, guid: fe086e5be4fb49d4681c0a2652d63ec1, type: 2}
+    loop: 0

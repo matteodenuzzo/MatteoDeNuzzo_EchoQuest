@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea49ebd65b44ed34ba1f0ec175224c0b, type: 3}
+  m_Name: Desert_Hard
+  m_EditorClassIdentifier: 
+  biome:
+    secondsInGame: 120
+    sounds:
+      backGroundSound: {fileID: 11400000, guid: 3872f9cb9e256d04892daad431516909, type: 2}
+      footStepsSound: {fileID: 11400000, guid: e82554097817a944790d7c730dbb4042, type: 2}
+      activeDialogueNarrator: {fileID: 11400000, guid: f07807c8e7acc4d4ea835f8513862329, type: 2}
+    allPossibleClusters: []
+    difficulty: {fileID: 11400000, guid: 7d31db0b559cca346969e19102e02359, type: 2}
+    timeBeforeBiomeStarts: 0
+    secondsEveryTimeCouldSpawnACluster: 21
+    percentageClusterCouldSpawn: 100
+    possibleObstacleNumberForGeneratingCluster: 02000000020000000200000002000000020000000200000003000000030000000300000004000000
+    possibleObstacleForGeneratingCluster:
+    - {fileID: 11400000, guid: c7b5d91c5fc6873418c962ac6710012c, type: 2}
+    - {fileID: 11400000, guid: 72e76f6f576d90c408bed652361f74db, type: 2}
+    - {fileID: 11400000, guid: dea8c201669bd4c41a966c3810dfda42, type: 2}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb9cd0f3f601df4f9e4cee9dc6d3378, type: 3}
+  m_Name: GestureTable
+  m_EditorClassIdentifier: 
+  gestureTable:
+  - reference: 0
+    gestureType: 0
+  - reference: 1
+    gestureType: 1
+  - reference: 2
+    gestureType: 2
+  - reference: 3
+    gestureType: 3
+  - reference: 4
+    gestureType: 4
+  - reference: 5
+    gestureType: 5
+  - reference: 6
+    gestureType: 7
+  - reference: 7
+    gestureType: 6

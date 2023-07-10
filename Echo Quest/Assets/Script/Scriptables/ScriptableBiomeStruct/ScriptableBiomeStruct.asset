@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2502618d2e04e9e4bbcb37918be04b2a, type: 3}
+  m_Name: ScriptableBiomeStruct
+  m_EditorClassIdentifier: 
+  allBiomes:
+  - {fileID: 11400000, guid: a1d3cc04ea249ec4588e0422e73c7912, type: 2}
+  - {fileID: 11400000, guid: 613f6b817778c2f4595591c1941b51ae, type: 2}
+  - {fileID: 11400000, guid: e9a5e614759d2574b8ea598d1937e37f, type: 2}
+  - {fileID: 11400000, guid: c01569af0f7fe1144a1d70e724d28dbd, type: 2}
+  - {fileID: 11400000, guid: 4b672a88fc2fe444998c2c7dd5941a44, type: 2}
+  - {fileID: 11400000, guid: c9bce2dfe973b164aa5acd00449d9f94, type: 2}
+  - {fileID: 11400000, guid: 5a6451da8e862674c806828fb30faff8, type: 2}
+  - {fileID: 11400000, guid: 2bdd398c85662384482a79aa92931d44, type: 2}
+  - {fileID: 11400000, guid: c0bab4145ddfb23418f3418eb88a7ba6, type: 2}

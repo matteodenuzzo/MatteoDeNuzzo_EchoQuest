@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63640b6adad244d4cac4a8ff78736c5d, type: 3}
+  m_Name: Obstacle_Rocket
+  m_EditorClassIdentifier: 
+  obstacle:
+    name: 
+    self: {fileID: 11400000}
+    points: 100
+    category: {fileID: 11400000, guid: 18ab241f29906af449d0de4e8c49f9de, type: 2}
+    gTimer: 3.5
+    cTATimer: 0.9
+    gFeedback: {fileID: 11400000, guid: 547b95a3c53e336449db5611c6145f02, type: 2}
+    cTAFeedback: {fileID: 11400000, guid: 9d1fece5f517b724692a8870ae6093f9, type: 2}
+    hitFeedback: {fileID: 11400000, guid: b46cff66862241d49a670c0363ebaa55, type: 2}
+    passedFeedback: {fileID: 11400000, guid: f95cb3cffd2ac0443b64a994c3712e74, type: 2}

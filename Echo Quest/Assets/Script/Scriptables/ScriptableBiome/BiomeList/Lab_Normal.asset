@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea49ebd65b44ed34ba1f0ec175224c0b, type: 3}
+  m_Name: Lab_Normal
+  m_EditorClassIdentifier: 
+  biome:
+    secondsInGame: 120
+    sounds:
+      backGroundSound: {fileID: 11400000, guid: 6a8c68d799b863843a7d907b93dedc79, type: 2}
+      footStepsSound: {fileID: 11400000, guid: 513fa0c245377ea468ed286339cf79d8, type: 2}
+      activeDialogueNarrator: {fileID: 11400000, guid: ccfb1e187f85b4f4dacefc3c3a5dfde7, type: 2}
+    allPossibleClusters: []
+    difficulty: {fileID: 11400000, guid: 502db41b5e4afc24c9f3237f1e0cd168, type: 2}
+    timeBeforeBiomeStarts: 0
+    secondsEveryTimeCouldSpawnACluster: 16
+    percentageClusterCouldSpawn: 100
+    possibleObstacleNumberForGeneratingCluster: 01000000010000000100000001000000010000000100000002000000020000000200000003000000
+    possibleObstacleForGeneratingCluster:
+    - {fileID: 11400000, guid: c7b5d91c5fc6873418c962ac6710012c, type: 2}
+    - {fileID: 11400000, guid: 72e76f6f576d90c408bed652361f74db, type: 2}
+    - {fileID: 11400000, guid: 92bc145068ba61744bdd705fdb06e3ec, type: 2}

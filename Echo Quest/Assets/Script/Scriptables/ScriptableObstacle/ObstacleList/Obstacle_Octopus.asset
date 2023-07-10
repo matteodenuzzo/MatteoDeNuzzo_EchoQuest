@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63640b6adad244d4cac4a8ff78736c5d, type: 3}
+  m_Name: Obstacle_Octopus
+  m_EditorClassIdentifier: 
+  obstacle:
+    name: 
+    self: {fileID: 11400000}
+    points: 100
+    category: {fileID: 11400000, guid: 6cd922d23bcc3e44c9a92a51a734e939, type: 2}
+    gTimer: 4
+    cTATimer: 0.965
+    gFeedback: {fileID: 11400000, guid: 8fcb9639e63f85943b64e9be1f9aff97, type: 2}
+    cTAFeedback: {fileID: 11400000, guid: d5b3dcfb5327506449141888117a72fe, type: 2}
+    hitFeedback: {fileID: 11400000, guid: a5e40ddeef1890d49a6be0e0369789e1, type: 2}
+    passedFeedback: {fileID: 11400000, guid: f06ddfd46c3acbd43b0deac655d4e85c, type: 2}

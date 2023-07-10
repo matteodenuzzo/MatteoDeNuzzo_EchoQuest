@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d49b7b117d5687b438b0d351645b6870, type: 3}
+  m_Name: ComposedAudio_ObstaclesCompleated_ITA
+  m_EditorClassIdentifier: 
+  list:
+  - firstValue: Obstacle_Rocket
+    secondValue: {fileID: 11400000, guid: 7d80524d5b818df4b931e807b47975fe, type: 2}
+  - firstValue: Obstacle_Landmine
+    secondValue: {fileID: 11400000, guid: fd4be7f481732324eb0ebd460b109161, type: 2}
+  - firstValue: Obstacle_Worm
+    secondValue: {fileID: 11400000, guid: 129ec38bda012554c8be66cb996f4a79, type: 2}
+  - firstValue: Obstacle_Octopus
+    secondValue: {fileID: 11400000, guid: ad6803585cd7e27459d9a97e13f4d667, type: 2}
+  - firstValue: Obstacle_Laser
+    secondValue: {fileID: 11400000, guid: 2394b0e0df334bb4f8674d3aad814571, type: 2}

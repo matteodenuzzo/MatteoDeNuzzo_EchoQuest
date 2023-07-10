@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f21ba9319dd7561459b4c7dd7e3dcf1d, type: 3}
+  m_Name: English
+  m_EditorClassIdentifier: 
+  language:
+    "men\xF9StatesDialogues":
+    - nameState: InitGame
+      entryDialogue: {fileID: 11400000, guid: 12d6f529027027b49801cc9c719a23dd, type: 2}
+    - nameState: Game Intro
+      entryDialogue: {fileID: 11400000, guid: ec23cd7eee900dd42b4c83f91570fb35, type: 2}
+    - nameState: Intro Select Language
+      entryDialogue: {fileID: 11400000, guid: 715f2c0da4555a14bb8a549a48fc17c2, type: 2}
+    - nameState: English Selected
+      entryDialogue: {fileID: 11400000, guid: e35090fc285758d449357d33e63530d2, type: 2}
+    - nameState: Italian Selected
+      entryDialogue: {fileID: 11400000, guid: 54211fdd472b7504eabc000a5fc1181b, type: 2}
+    - nameState: Language Confirm
+      entryDialogue: {fileID: 11400000, guid: 46afab366af2501439055f1c7e202a7c, type: 2}
+    - nameState: Commands Intro
+      entryDialogue: {fileID: 11400000, guid: de081fa7ca38ae54eb57288bf095bbd9, type: 2}
+    - nameState: Menu
+      entryDialogue: {fileID: 11400000, guid: aac623d2f3ab1914f9b5f0789646d58c, type: 2}
+    - nameState: Select Game
+      entryDialogue: {fileID: 11400000, guid: 668db2e47f8e3c443b9736112b4aacc9, type: 2}
+    - nameState: Select Tutorial
+      entryDialogue: {fileID: 11400000, guid: 116b601176a10fe4580ffe2d47963d9f, type: 2}
+    - nameState: Select Story
+      entryDialogue: {fileID: 11400000, guid: be5d0e58a8563d1438a8ce1a3a8ac9fe, type: 2}
+    - nameState: Select Options
+      entryDialogue: {fileID: 11400000, guid: c055bfd9e3f819e4d8625e3c602d7601, type: 2}
+    - nameState: Select Credits
+      entryDialogue: {fileID: 11400000, guid: 9b33b3c5fcb7c344abd2c600528b0768, type: 2}
+    - nameState: Select Exit
+      entryDialogue: {fileID: 11400000, guid: a41a258b61ddb2a439d68090a2c935ed, type: 2}
+    - nameState: Check Tutorial
+      entryDialogue: {fileID: 11400000, guid: 4ca0728acc879de4a8de38e3ec4e8a50, type: 2}
+    - nameState: GAME
+      entryDialogue: {fileID: 11400000, guid: 8bd2397c698585c4c91f6edf62017514, type: 2}
+    - nameState: PLAY AGAIN
+      entryDialogue: {fileID: 11400000, guid: 731e06bb7e622b44ca7b4d8f511dc909, type: 2}
+    - nameState: TUTORIAL
+      entryDialogue: {fileID: 11400000, guid: 25e137c48bfbd764bafbd8d0618049ed, type: 2}
+    - nameState: Play Now
+      entryDialogue: {fileID: 11400000, guid: 5b26ae797b1e0dc499a0bcfee78b75ea, type: 2}
+    - nameState: Story
+      entryDialogue: {fileID: 11400000, guid: a5a9d28057c8a6944b28cc63f573849a, type: 2}
+    - nameState: Credits
+      entryDialogue: {fileID: 11400000, guid: 8337b3808adf2084288fa4f23e5f8276, type: 2}
+    - nameState: Select Commands Intro
+      entryDialogue: {fileID: 11400000, guid: daf906719356ab147906fe7e335d72ed, type: 2}
+    - nameState: Exit Confirm
+      entryDialogue: {fileID: 11400000, guid: e980113c823491040b44c2ad8a6b92eb, type: 2}
+    - nameState: EXIT
+      entryDialogue: {fileID: 11400000, guid: 0c61de9e300b8434ab4cafa81badd7a7, type: 2}
+    - nameState: Choose Options
+      entryDialogue: {fileID: 11400000, guid: e4da1bccc6177f94cadb0d6cf6845196, type: 2}
+    - nameState: Options Select Audio
+      entryDialogue: {fileID: 11400000, guid: 834ba15cac82f3243a3c56235e3fee13, type: 2}
+    - nameState: Commands Intro Menu
+      entryDialogue: {fileID: 11400000, guid: a096bb3419ee405449ce2ab5d47480c1, type: 2}
+    - nameState: Options Language Selection
+      entryDialogue: {fileID: 11400000, guid: 9ba3166fc9db5f340873261bc39bafd4, type: 2}
+    - nameState: Choose Language
+      entryDialogue: {fileID: 11400000, guid: 0e095b0ea12917a40a11c649238a9be3, type: 2}
+    - nameState: Choose Audio Options
+      entryDialogue: {fileID: 11400000, guid: 8475b387b3fbc90438a7f579ea4896a2, type: 2}
+    - nameState: Master Audio Volume
+      entryDialogue: {fileID: 11400000, guid: 26f6c1597b2f20f40ae188be2459bac8, type: 2}
+    - nameState: Narrator Audio Volume
+      entryDialogue: {fileID: 11400000, guid: 54824b3383590a84db41b9eefe9e2d2b, type: 2}
+    - nameState: SFX Audio Volume
+      entryDialogue: {fileID: 11400000, guid: 09550f8f554672c48bf8e3cb9bfa9691, type: 2}
+    - nameState: Background Audio Volume
+      entryDialogue: {fileID: 11400000, guid: ffe5eff860235c04cb37af905d220c2d, type: 2}
+    - nameState: Change Master Audio Volume
+      entryDialogue: {fileID: 11400000, guid: b36ae3406d83ab642ba9a1a3eae575ac, type: 2}
+    - nameState: Increase Master Audio Volume
+      entryDialogue: {fileID: 11400000, guid: 4ccec5d853d88844a95cf1ee4e739ddc, type: 2}
+    - nameState: Decrease Master Audio Volume
+      entryDialogue: {fileID: 11400000, guid: c1be3802023cdae4486b7df646919e9a, type: 2}
+    - nameState: Change Narrator Audio Volume
+      entryDialogue: {fileID: 11400000, guid: 70ffabe9425f91649811b56b800bd347, type: 2}
+    - nameState: Increase Narrator Audio Volume
+      entryDialogue: {fileID: 11400000, guid: 43151aa45be335946a90811ea5f7fb52, type: 2}
+    - nameState: Decrease Narrator Audio Volume
+      entryDialogue: {fileID: 11400000, guid: 49e2f38ed1a679a4a9c8788ac5b20ff0, type: 2}
+    - nameState: Change SFX Audio Volume
+      entryDialogue: {fileID: 11400000, guid: 2e0118442f322204eb6d61ad8f74c845, type: 2}
+    - nameState: Increase SFX Audio Volume
+      entryDialogue: {fileID: 11400000, guid: 3ffe0364094b29a4081bdacec9707668, type: 2}
+    - nameState: Decrease SFX Audio Volume
+      entryDialogue: {fileID: 11400000, guid: 5dde270791477194ca30a901f6239034, type: 2}
+    - nameState: Change Background Audio Volume
+      entryDialogue: {fileID: 11400000, guid: c48771b5c4e9fa247b1d4e9fce3c17e8, type: 2}
+    - nameState: Increase Background Audio Volume
+      entryDialogue: {fileID: 11400000, guid: 3ba95dfac7f1415448da4f603c0d8320, type: 2}
+    - nameState: Decrease Background Audio Volume
+      entryDialogue: {fileID: 11400000, guid: db95fab78183cd54398eb8e62522ca1c, type: 2}
+    - nameState: Options English Selected
+      entryDialogue: {fileID: 11400000, guid: e204cd39b7cd5d542ab687afe0ab1584, type: 2}
+    - nameState: Options Current Language = English
+      entryDialogue: {fileID: 11400000, guid: 872529da8b54f6246b999196c5713a77, type: 2}
+    - nameState: Options Italian Selected
+      entryDialogue: {fileID: 11400000, guid: e9f9a1818e2b6e94f9f899bc455d570d, type: 2}
+    - nameState: Options Current Language = Italian
+      entryDialogue: {fileID: 11400000, guid: 4912feb169573c546ade50f98f054623, type: 2}
+    - nameState: Tutorial_Obstacle_Rocket_Selection
+      entryDialogue: {fileID: 11400000, guid: ca78d4a9252afe64784fc9e4d0e7023a, type: 2}
+    - nameState: Tutorial_Obstacle_Rocket_GFeedback
+      entryDialogue: {fileID: 11400000, guid: a5bf773a45f997c4bb728faf0d512a48, type: 2}
+    - nameState: Tutorial_Obstacle_Rocket_CTAFeedback
+      entryDialogue: {fileID: 11400000, guid: 718543dc627dc0e4da918ce3b20caa74, type: 2}
+    - nameState: Tutorial_Obstacle_Rocket_HitFeedback
+      entryDialogue: {fileID: 11400000, guid: b30499a5d1bd073499d8e1e75ed28b98, type: 2}
+    - nameState: Tutorial_Obstacle_Rocket_Compleated
+      entryDialogue: {fileID: 11400000, guid: dca12cc7130f28d42934c71b87a8cc67, type: 2}
+    - nameState: Tutorial_Obstacle_Landmine_Selection
+      entryDialogue: {fileID: 11400000, guid: 0076c39459eba2f4db7451d9ecfbefcd, type: 2}
+    - nameState: Tutorial_Obstacle_Landmine_GFeedback
+      entryDialogue: {fileID: 11400000, guid: fd77aded08957ab4fb161e4aebe901ce, type: 2}
+    - nameState: Tutorial_Obstacle_Landmine_CTAFeedback
+      entryDialogue: {fileID: 11400000, guid: 5628d1b4296a30148a119ae59beca742, type: 2}
+    - nameState: Tutorial_Obstacle_Landmine_Compleated
+      entryDialogue: {fileID: 11400000, guid: 898e574e45e36a54384c556944a071c1, type: 2}
+    - nameState: Tutorial_Obstacle_Landmine_HitFeedback
+      entryDialogue: {fileID: 11400000, guid: af306892895ad794383df4a481335dab, type: 2}
+    - nameState: Tutorial_Obstacle_Worm_Selection
+      entryDialogue: {fileID: 11400000, guid: 86362c664df4c7f44ae59ff981a92153, type: 2}
+    - nameState: Tutorial_Obstacle_Worm_GFeedback
+      entryDialogue: {fileID: 11400000, guid: 83939df3903c4a1418030d23c2dcd0a8, type: 2}
+    - nameState: Tutorial_Obstacle_Worm_CTAFeedback
+      entryDialogue: {fileID: 11400000, guid: 16421795cdc8c6446ba7bf5cb72f34a2, type: 2}
+    - nameState: Tutorial_Obstacle_Worm_HitFeedback
+      entryDialogue: {fileID: 11400000, guid: 5977a95efc95c2b4580412e7af7d0a20, type: 2}
+    - nameState: Tutorial_Obstacle_Worm_Compleated
+      entryDialogue: {fileID: 11400000, guid: 11827b1cd50ca6f478fa1c5c484ca02b, type: 2}
+    - nameState: Tutorial_Obstacle_Octopus_Selection
+      entryDialogue: {fileID: 11400000, guid: 7f83248fd0b75dc4db8cea7e39d89c84, type: 2}
+    - nameState: Tutorial_Obstacle_Octopus_GFeedback
+      entryDialogue: {fileID: 11400000, guid: d6c31ec305f187345a678d5d7cf44e7c, type: 2}
+    - nameState: Tutorial_Obstacle_Octopus_CTAFeedback
+      entryDialogue: {fileID: 11400000, guid: 6d5b48390e042ec4a9ba7451b10ab47b, type: 2}
+    - nameState: Tutorial_Obstacle_Octopus_Compleated
+      entryDialogue: {fileID: 11400000, guid: 5ba4d8d604849a1479d8662b747b3623, type: 2}
+    - nameState: Tutorial_Obstacle_Octopus_HitFeedback
+      entryDialogue: {fileID: 11400000, guid: e830b9dcc9af30544bcad7aa77f878fd, type: 2}
+    - nameState: Tutorial_Obstacle_Laser_Selection
+      entryDialogue: {fileID: 11400000, guid: 6a08da41935ffb144b393dd349f33f8d, type: 2}
+    - nameState: Tutorial_Obstacle_Laser_GFeedback
+      entryDialogue: {fileID: 11400000, guid: 570d8beaa345229468f4dd5efc005cfa, type: 2}
+    - nameState: Tutorial_Obstacle_Laser_CTAFeedback
+      entryDialogue: {fileID: 11400000, guid: 9ffaf8e90d33da84d8bafd0f5080c50d, type: 2}
+    - nameState: Tutorial_Obstacle_Laser_Compleated
+      entryDialogue: {fileID: 11400000, guid: 056deb85b3df77c4182d701a9dc0745a, type: 2}
+    - nameState: Tutorial_Obstacle_Laser_HitFeedback
+      entryDialogue: {fileID: 11400000, guid: 779821f324aea14449859a12622bb0f8, type: 2}
+    - nameState: Tutorial_Obstacle_GeneralPassed
+      entryDialogue: {fileID: 11400000, guid: 081551e856c732041b5a3096e0f08665, type: 2}
+    biomeEntryDialogue:
+    - biome: {fileID: 11400000, guid: a1d3cc04ea249ec4588e0422e73c7912, type: 2}
+      biomeEntryDialogue: {fileID: 11400000, guid: d70075b6a3c67514c9cb442a70849cd3, type: 2}
+    - biome: {fileID: 11400000, guid: 613f6b817778c2f4595591c1941b51ae, type: 2}
+      biomeEntryDialogue: {fileID: 11400000, guid: 9960e14f6b31cf84aadb12111b8012a1, type: 2}
+    - biome: {fileID: 11400000, guid: e9a5e614759d2574b8ea598d1937e37f, type: 2}
+      biomeEntryDialogue: {fileID: 11400000, guid: f07807c8e7acc4d4ea835f8513862329, type: 2}
+    - biome: {fileID: 11400000, guid: c01569af0f7fe1144a1d70e724d28dbd, type: 2}
+      biomeEntryDialogue: {fileID: 11400000, guid: a34d09b9be720be4183de1aede22d7ea, type: 2}
+    - biome: {fileID: 11400000, guid: 4b672a88fc2fe444998c2c7dd5941a44, type: 2}
+      biomeEntryDialogue: {fileID: 11400000, guid: ccfb1e187f85b4f4dacefc3c3a5dfde7, type: 2}
+    - biome: {fileID: 11400000, guid: c9bce2dfe973b164aa5acd00449d9f94, type: 2}
+      biomeEntryDialogue: {fileID: 11400000, guid: 6341c2c8ba7572e4493a546da6a72b9d, type: 2}
+    - biome: {fileID: 11400000, guid: 5a6451da8e862674c806828fb30faff8, type: 2}
+      biomeEntryDialogue: {fileID: 11400000, guid: f133701c4711b59498e915fad42354d0, type: 2}
+    - biome: {fileID: 11400000, guid: 2bdd398c85662384482a79aa92931d44, type: 2}
+      biomeEntryDialogue: {fileID: 11400000, guid: 74fd72c390ca76c4aad83b1640b6fe91, type: 2}
+    - biome: {fileID: 11400000, guid: c0bab4145ddfb23418f3418eb88a7ba6, type: 2}
+      biomeEntryDialogue: {fileID: 11400000, guid: f062c2d913f2fbf4d9f078cc47c75b70, type: 2}
+    allObstacleCompletedAudio: {fileID: 11400000, guid: 86e2810a572b6f841a9f5c82a6f9b5c2, type: 2}
+    incipitAudio: {fileID: 11400000, guid: 8d57d48c381daf742a4f96cab1e40375, type: 2}
+    clusterEntryDialogue: {fileID: 11400000, guid: dcf38d11e4a2e5048a700fe1aaa5972c, type: 2}
